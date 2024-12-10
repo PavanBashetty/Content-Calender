@@ -12,11 +12,11 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-public class ContentCollectionRepo {
+public class ContentRepository {
 
     private final List<Content> contents = new ArrayList<>();
 
-    public ContentCollectionRepo(){
+    public ContentRepository(){
 
     }
 
